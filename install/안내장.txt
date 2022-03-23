@@ -1,0 +1,23 @@
+이 폴더는 모두의 플러그 사용시 자동으로 설치, 제거를 지원하는 보안툴(대표적으로 Ahnlab, nProtect)의
+설치파일을 저장해 두는 용도의 폴더입니다.
+
+라이선스 및 배포파일의 크기 문제로 모두의 플러그 배포시에는 해당 파일들을 포함하지 않은채로 배포됩니다.
+
+1.0.0.6 버전 기준으로 현재
+
+astx_setup.exe , 				AhnLan Safe Transaction
+nos_setup.exe , 				nProtect Online Security v1.0 
+inst_MaWebDRM.exe,			MarkAny WebDRMNoAX
+TouchEn_nxWeb_Installer.exe			Raonsecure TouchEn nxWeb
+
+이렇게 4개의 파일을 사용 중이며.
+
+astx_setup.exe는 대법원 전자가족관계등록시스템, 국민건강보험공단 - 사이버민원센터 등에서 사용중이고
+nos_setup.exe는 대법원 인터넷등기소, Wetax 위택스, 특허청 특허로 등에서 사용중입니다.
+inst_MaWebDRM.exe는 4대사회보험 정보연계센터에서 사용중입니다.
+TouchEn_nxWeb_Installer.exe	 는 경찰청교통민원24 에서 사용중입니다.
+
+위에 나열된 사이트을 이용중이시면서 모두의 플러그에서 보안툴의 설치,제거 관리까지 사용하시려 하시는 경우에는
+위 설치파일을 이 폴더에 다운받아 두셔야 합니다.
+
+각 사이트에서 초기 각 플러그인 설치시에 다운받은 설치파일을 복사해 두시면 됩니다.

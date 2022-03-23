@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="STDAFX">
+      <UniqueIdentifier>{06c11dbb-b783-492f-9970-8b3ebabffda3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLG">
+      <UniqueIdentifier>{7ae0b5d9-6f04-46db-83c3-674adf0d6e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CONFIG">
+      <UniqueIdentifier>{bdd97354-9bbc-4108-be9f-5225ba720509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LIST">
+      <UniqueIdentifier>{52d6edd3-5033-4ac6-b82a-a8e56d75af0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WMINOTI">
+      <UniqueIdentifier>{1acad295-48a0-4430-9c68-8481b9527ee3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>STDAFX</Filter>
+    </ClInclude>
+    <ClInclude Include="9RASTOPDlg.h">
+      <Filter>DLG</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigMgr.h">
+      <Filter>CONFIG</Filter>
+    </ClInclude>
+    <ClInclude Include="9RASTOP.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="clist.h">
+      <Filter>LIST</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSink.h">
+      <Filter>WMINOTI</Filter>
+    </ClInclude>
+    <ClInclude Include="WmiNoti.h">
+      <Filter>WMINOTI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="9RASTOP.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>STDAFX</Filter>
+    </ClCompile>
+    <ClCompile Include="9RASTOPDlg.cpp">
+      <Filter>DLG</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigMgr.cpp">
+      <Filter>CONFIG</Filter>
+    </ClCompile>
+    <ClCompile Include="clist.cpp">
+      <Filter>LIST</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSink.cpp">
+      <Filter>WMINOTI</Filter>
+    </ClCompile>
+    <ClCompile Include="WmiNoti.cpp">
+      <Filter>WMINOTI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="My9RASTOP.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\My9RASTOP.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\9RASTOP.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
